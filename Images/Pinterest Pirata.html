@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest Pirata</title>
+    
+    
+<link rel="icon" href="http://127.0.0.1:5500/Images/pintVintage.svg"><link rel="stylesheet" href="./Pinterest Pirata_files/styles.css"></head>
+
+<body>
+    <header class="Header">
+        <nav>
+            <div class="Logo"><a href="https://www.pinterest.com/"><img src="./Pinterest Pirata_files/logo-Pinteres-1024x576.png" height="60" width="100"></a></div>
+                <div class="Menu">
+                    <ul>
+                        <a href="https://about.pinterest.com/">About</a><a href="https://business.pinterest.com/">Business</a><a href="https://newsroom.pinterest.com/">Blog</a>  
+                    </ul>
+                </div>
+                <div class="botones">
+                    <form action="https://www.pinterest.com.mx/">
+                        <button class="SignIn" href="#">Log In</button>
+                        <button class="boton-registro" href="#">Sign Up</button>
+                    </form>
+                </div>
+        </nav>
+    </header>
+    <section class="texts">
+        <div class="text1">Get your next</div>    
+            <div class="text2" height="30px">
+                <div class="slogan" style="color: rgb(0, 118, 211)" ;="">Summer Vacations</div> 
+                <div class="slogan" style="color:aqua" ;="">Fun Activities</div>
+                <div class="slogan" style="color:blueviolet" ;="">Holidays</div>
+                <div class="slogan" style="color:darkcyan">DYI</div>
+            </div>
+        
+    </section>
+    <div class="container">
+        <div class="child1"> <img src="./Pinterest Pirata_files/File0.jpg">  </div>
+        <div class="child2"> <img src="./Pinterest Pirata_files/File1.jpg">  </div>
+        <div class="child3"> <img src="./Pinterest Pirata_files/File2.jpg">  </div>
+        <div class="child4"> <img src="./Pinterest Pirata_files/File3.jpg">  </div>
+        <div class="child5"> <img src="./Pinterest Pirata_files/File4.jpeg">  </div>
+        <div class="child6"> <img src="./Pinterest Pirata_files/File5.jpeg">  </div>
+        <div class="child7"> <img src="./Pinterest Pirata_files/File6.jpeg">  </div>
+        <div class="child8"> <img src="./Pinterest Pirata_files/File7.jpeg">  </div>
+        <div class="child9"> <img src="./Pinterest Pirata_files/File8.jpg">  </div>
+        <div class="child10"> <img src="./Pinterest Pirata_files/File8.jpg">  </div>
+        <div class="child11"> <img src="./Pinterest Pirata_files/File9.jpg">  </div>
+        <div class="child12"> <img src="./Pinterest Pirata_files/File10.jpg">  </div>
+        <div class="child13"> <img src="./Pinterest Pirata_files/File11.jpg">  </div>
+        <div class="child14"> <img src="./Pinterest Pirata_files/File12.jpg">  </div>
+    </div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

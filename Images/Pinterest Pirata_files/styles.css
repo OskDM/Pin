@@ -1,0 +1,206 @@
+.header {
+    background: white;
+}
+
+nav {
+     
+    height: 100px;
+    display: flex;
+    color: white;
+}
+
+.Logo {
+    padding-top: 10px;
+    padding-left: 25px;
+    width: 930px;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.Menu ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 16.5px;
+    font-weight: bold;
+    font-family: 'Catamaran', sans-serif;
+    padding-top: 13px;
+    width: 280px;
+    justify-content: space-around;
+}
+
+.botones {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: right;
+    padding-top: 20px;
+}
+
+.SignIn {
+    font-size: 16.5px;
+    border-radius: 19px;
+    padding: 8px 12px 4px 12px;
+    color: white;
+    background-color: #E60026;
+    border: none;
+    font-family: 'Catamaran', sans-serif;
+    justify-content: right;
+}
+
+.SignIn:hover {
+    background: #AD081B;
+    transition-duration: 0.3s;
+}
+
+.boton-registro {
+    font-size: 16.1px;
+    border-radius: 19px;
+    padding: 10px 1px 4px 12px;
+    color: black;
+    background-color: #EFEFEF;
+    border: none;
+    font-family: 'Catamaran', sans-serif;
+    justify-content: right;
+}
+
+.boton-registro:hover {
+    background: #dbdada;
+    transition-duration: 0.3s;
+}
+
+section {
+    display: grid;
+    height: 420px;
+}
+
+.texts {
+    margin: 0px;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+     
+    left: 0px;
+    margin: 0px;
+}
+
+.text1 {
+    padding-top: px;
+    text-align: center;
+    grid-row: 5;
+    padding-bottom: 0px;
+    height: 49px;
+    align-content: center;
+}
+
+.text2 {
+    font-style: italic;
+    grid-row: 7;
+    grid-column: 1;
+    grid-row: 6;
+    height: 177px;
+    text-decoration: wavy;
+    position: relative;
+    filter: contrast(25), blur(1px);
+}
+
+.slogan {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: slogan 12s infinite ease-in-out;
+}
+
+.slogan:nth-child(1) {
+    animation-delay: -3s;
+}
+
+.slogan:nth-child(4) {
+    animation-delay: -6s;
+}
+
+.slogan:nth-child(3) {
+    animation-delay: -9s;
+}
+
+.slogan:nth-child(2) {
+    animation-delay: -12s;
+}
+
+.container {
+    display: grid;
+    grid-gap: 1px;
+    justify-content: flex-start;
+    width: 100%;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows:  auto auto auto;
+    grid-template-areas: "c1 c2 c3 c4"
+                         "c5 c6 c7 c8 "    
+                         "c9 c10 c11 c12";
+}
+
+.child1{grid-area: c1;
+         
+          }
+.child2{grid-area: c2;
+     
+    }
+.child3{grid-area: c3;
+     
+    }
+.child4{grid-area: c4;
+     
+    }
+.child5{grid-area: c5;
+     
+    }
+.child6{grid-area: c6;
+     
+    }
+.child7{grid-area: c7;
+     
+    }
+.child8{grid-area: c8;
+     
+    }
+.child9{grid-area: c9;
+     
+    }
+.child10{grid-area: c10;
+     
+    }
+.child11{grid-area: c11;
+     
+    }
+.child12{grid-area: c12;
+     
+    }
+.child13{grid-area: c13;
+     
+    }
+.child14{grid-area: c14;
+     
+    }
+
+
+
+@keyframes slogan {
+
+    0%,
+    5%,
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+
+    20%,
+    80% {
+        filter: blur(1em);
+        opacity: 0;
+    }
+}
